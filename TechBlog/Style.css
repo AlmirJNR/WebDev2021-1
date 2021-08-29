@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: lightgrey;
+}
+
+/*Header Area*/
+#Header {
+    background: orange;
+    height: 9rem;
+    text-align: center;
+}
+#Logo {
+    border: 0px dotted black;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+/*Colorização da Logo*/
+h1 {
+    font-size: 2.5em;
+    color: black;
+}
+.WhiteColor {
+    color: white;
+}
+/*--- --- --- --- ---*/
+
+#Menu {
+    border: 0px dotted black;
+}
+.MenuItems {
+    border: 0px dotted black;
+    border-radius: 1rem;
+    margin: 0.25rem;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+/*=== === BEGIN Menu BEGIN === ===*/
+/*Link Não Visitado*/
+#Menu a:link {
+    color: black;
+}
+/*Link Visitado*/
+#Menu a:visited {
+    color: black;
+}
+/*Link Hover, link quando se passa o cursor*/
+#Menu a:hover {
+    color: white;
+    background: black;
+}
+/*Link Ativo, link quando clicado*/
+#Menu a:active {
+    color: black;
+    background: white;
+}
+/*=== === FINISH Menu FINISH === ===*/
+
+/*Content Area*/
+#PrincipalArea {
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+    overflow: auto;
+}
+h2 {
+    border: 0px dotted black;
+    margin-top: 0.5em;
+    font-size: 2em;
+    color: orange;
+
+}
+.PostDate {
+    border: 0px dotted black;
+    margin-bottom: 1rem;
+    font-size: 0.9em;
+    font-weight: 700;
+    display: block;
+}
+#Posts {
+    border: 0px dotted black;
+    width: 600px;
+    float: left;
+}
+p {
+    padding: 0.5em 0.5em 0.25em 0.5em;
+    text-align: justify;
+}
+.ReadMore {
+    text-decoration: underline;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.5rem;
+}
+
+/*=== === BEGIN Posts BEGIN === ===*/
+/*Link Não Visitado*/
+#Posts a:link {
+    color: orange;
+}
+/*Link Visitado*/
+#Posts a:visited {
+    color: orange;
+}
+/*Link Hover, link quando se passa o cursor*/
+#Posts a:hover {
+    color: white;
+    background: black;
+}
+/*Link Ativo, link quando clicado*/
+#Posts a:active {
+    color: orange;
+    background: white;
+}
+/*=== === FINISH Posts FINISH === ===*/
+
+#SideContent {
+    border: 0px dotted black;
+    border-radius: 0.5rem;
+    width: 300px;
+    float: right;
+    margin-top: 1em;
+}
+#SideMenu {
+    border-radius: 0.5rem;
+    /*background: orange;*/
+    padding: 0.25rem;
+}
+
+#SideLatestPostsTitle {
+    border-radius: 0.5rem;
+    /*background: orange;*/
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+}
+h3 {
+    background: rgb(255, 200, 45);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: x-large;
+}
+#SideLatestPostsContent {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background: white;
+}
+.SideReadMore {
+    text-decoration: underline;
+    border-radius: 0.5rem;
+}
+/*=== === BEGIN Side Content Latest Posts BEGIN === ===*/
+/*Link Não Visitado*/
+#SideContent a:link {
+    color: orange;
+}
+/*Link Visitado*/
+#SideContent a:visited {
+    color: orange;
+}
+/*Link Hover, link quando se passa o cursor*/
+#SideContent a:hover {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+    background: black;
+}
+/*Link Ativo, link quando clicado*/
+#SideContent a:active {
+    color: orange;
+    background: white;
+}
+/*=== === FINISH Side Content Latest Posts FINISH === ===*/
+
+#SideCategories {
+    border: 0px solid black;
+    border-radius: 0.5rem;
+    list-style: none;
+    padding: 0.5rem;
+    background: white;
+}
+.SideCategoriesContent {
+    list-style: none;
+    font-size: 1.075em;
+    color: orange;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+/*=== === BEGIN Side Categories Content BEGIN === ===*/
+/*Link Não Visitado*/
+#SideCategories a:link {
+    color: orange;
+}
+/*Link Visitado*/
+#SideCategories a:visited {
+    color: orange;
+}
+/*Link Hover, link quando se passa o cursor*/
+#SideCategories a:hover {
+    color: white;
+    background: black;
+}
+/*Link Ativo, link quando clicado*/
+#SideCategories a:active {
+    color: black;
+    background: white;
+}
+/*=== === FINISH Side Categories Content FINISH === ===*/
+
+
+/*Footer Area*/
+#Footer {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+    clear: both;
+    padding: 2rem;
+}
